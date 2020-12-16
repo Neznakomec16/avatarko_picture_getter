@@ -1,0 +1,1 @@
+Gets random avatar from https://avatarko.ru/random
