@@ -5,14 +5,14 @@ Tool to get random avatar from https://avatarko.ru
 ### Instalation
 
 ```
-pip install avatar_generator
+pip install avatarko_picture_getter
 ```
 
 ### Usage
 
 For use as command line interface(cli)
 ```
-python avatarko_picture_getter.py [-o filepath]
+python -m avatarko_picture_getter [-o filepath]
 ```
 or
 ```
