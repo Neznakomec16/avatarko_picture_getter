@@ -1,14 +1,23 @@
-## Avatar generator
+## Avatarko picture getter
 
-Gets random avatar from https://avatarko.ru/random
+Tool to get random avatar from https://avatarko.ru
 
 ### Instalation
 
 ```
-git clone https://github.com/neznakomec16/avatar_generator.git && cd avatar_generator
-pip install -r requirements.txt
+pip install avatar_generator
 ```
 
 ### Usage
 
-`python avatar_generator.py`
+For use as command line interface(cli)
+```
+python avatarko_picture_getter.py [-o filepath]
+```
+or
+```
+from avatarko_picture_getter import AvatarkoPictureGetter
+
+with open('some_picture.png', 'wb') as f:
+    f.write(AvatarkoPictureGetter.get_avatar())
+```
